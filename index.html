@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shrek nejlepší postavy</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">Shrek nejlepší postavy</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Domů</a></li>
+          <li><a href="#citaty">Citáty</a></li>
+          <li><a href="https://www.youtube.com/watch?v=KbiwL74KyJQ" target="_blank">Shrek 5</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <section class="characters">
+      <div class="content-grid">
+        <div class="card">
+          <img src="/shrek4.jpg" alt="Shrek">
+          <div class="card-content">
+            <h2>Shrek</h2>
+            <p>Nejoblíbenější zlobr všech dob, který miluje soukromí a bláto!</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/oslik1.jpg" alt="Oslík">
+          <div class="card-content">
+            <h2>Oslík</h2>
+            <p>Nejlepší kamarád, který nikdy nepřestane mluvit!</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/ginger1.jpg" alt="Perníček">
+          <div class="card-content">
+            <h2>Perníček</h2>
+            <p>Malý válečník s obrovskou odvahou!</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/pinocciho.jpg" alt="Pinocchio">
+          <div class="card-content">
+            <h2>Pinocchio</h2>
+            <p>Dřevěný chlapec s velkým srdcem!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quotes-news" id="citaty">
+      <h2>Citáty a Novinky</h2>
+      <div class="quotes">
+        <h3>Vtipné citáty ze Shreka</h3>
+        <ul>
+          <li>"Lepší být opilý, než nudný." – Shrek</li>
+          <li>"Kdo by nechtěl žít v bažině?" – Shrek</li>
+          <li>"Zlobr nebo princ? To je otázka!" – Shrek</li>
+        </ul>
+      </div>
+      <div class="news">
+        <h3>Shrek 5 Novinky</h3>
+        <p>Nový film Shrek 5 je ve vývoji s náznaky návratu starých postav i nových dobrodružství.</p>
+        <p>Sledujte náš web a oficiální kanály pro nejnovější informace a exkluzivní zákulisní pohledy.</p>
+      </div>
+      <div class="easter-egg">
+        <p>Pssst... klikni na Shrekův obrázek a objevíš něco překvapivého! 😉</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Shrek nejlepší postavy. Všechna práva vyhrazena.</p>
+    </div>
+  </footer>
+  <script>
+    document.querySelector('img[alt="Shrek"]').addEventListener('click', function() {
+      alert("Nalezli jste easter egg! Jste opravdový fanoušek Shreka!");
+    });
+  </script>
+</body>
+</html>
